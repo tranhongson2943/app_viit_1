@@ -1,9 +1,9 @@
 <template>
-  <div class="b-container-fluid ">
+  <div class="b-container-fluid">
     <div class="d-flex justify-content-center">
-      <div class="py-5">
-      <Banner/>
-    </div>
+      <div class="pt-4">
+        <Banner />
+      </div>
     </div>
   </div>
 </template>
@@ -13,5 +13,4 @@
 export default {};
 </script>
 <style>
-
 </style>
