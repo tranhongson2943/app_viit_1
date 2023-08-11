@@ -1,7 +1,6 @@
 <template>
-  <div>
+  <div class="b-container-fluid">
     <Header/>
-    header
     <NuxtChild/>
   </div>
 
@@ -12,3 +11,5 @@
 export default {
 }
 </script>
+<style>
+</style>
