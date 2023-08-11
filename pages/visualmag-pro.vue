@@ -1,6 +1,6 @@
 <template>
   <div class="b-container-fluid">
-    <Header/>
+    <Header class="shadow"/>
     <NuxtChild/>
   </div>
 
