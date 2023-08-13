@@ -1,7 +1,7 @@
 <template>   
     <div class="b-container-fluid mb-4">
         <div class="d-flex" >
-            <img src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg" alt="" style="width:50%; height: auto; max-width: 120px;">
+            <img src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg" alt="" >
            
            <div class="text">
             <h4 style="font-size: 16px; font-family: sans-serif; color: black; font-weight: bold;">The Complete Guide to Using Twitter to Grow Your Business</h4>
@@ -14,11 +14,20 @@
 </template>
 
 <style scoped>
+*{
+  padding: 0;
+  margin: 0;
+}
 img {
-  display: block;
-  overflow: hidden;
+  width: 120px;
+  height: 79.8px;
 }
 .d-flex{
   gap:18px;
+}
+h4{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 </style>

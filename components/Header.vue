@@ -1,72 +1,162 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container p-0">
-      <a class="navbar-brand" href="#">
+  <header>
+    <div class="header-container">
+        <button class="hidden-btn">
+          <svg width="24" height="24"><path class="three-line" d="M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z"></path></svg>
+        </button>
+      <a class="logo-link" href="">
         <img
-          class="img-fluid"
-          src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2023/02/logo-1-300x56.png"
-          width="220"
-          height="41.06"
+          class="logo"
+          src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2023/02/logo-1.png"
           alt=""
         />
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+      <div class="right-side">
+        <ul>
+          <li>
+            <a href="">Home</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Features</a>
+          <li>
+            <a href="">Advertising</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Pricing</a>
+          <li>
+            <a href="">Blogging</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Pricing</a>
+          <li>
+            <a href="">Marketing</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Pricing</a>
+          <li>
+            <a href="">Social</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Pricing</a>
+          <li>
+            <a href="">SEO</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Pricing</a>
+          <li>
+            <a href="">Web Design</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Pricing</a>
+          <li>
+            <a href="">Tech</a>
           </li>
         </ul>
+        <div class="search-group">
+          <input class="search-input" type="search" />
+
+          <button class="search-btn" type="submit">
+            <svg class="search-icon" width="24" height="24">
+              <path 
+                d="M13.5 6C10.5 6 8 8.5 8 11.5c0 1.1.3 2.1.9 3l-3.4 3 1 1.1 3.4-2.9c1 .9 2.2 1.4 3.6 1.4 3 0 5.5-2.5 5.5-5.5C19 8.5 16.5 6 13.5 6zm0 9.5c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"
+              ></path>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
-  </nav>
+  </header>
 </template>
-
-
-
-<script>
-export default {};
-</script>
-<style>
-nav {
-  width: 100%;
-  height: 76px;
-  color: white;
+<style scoped>
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: #222222;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 500;
+  box-sizing: border-box;
 }
-.ul {
+header {
+  height: 77px;
+  width: 100%;
+  line-height: 77px;
   display: flex;
+  justify-content: center;
+}
+.header-container {
+  width: 1180px;
+}
+/* HIDDEN BTN */
+.hidden-btn{
+  width: 35.6px;
+  height: 35.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  border: none;
+}
+
+.three-line{
+fill: #222222;
+}
+/* LOGO */
+img.logo {
+  width: 220px;
+  height: 41.24px;
+}
+a:hover {
+  color: #222222;
+  text-decoration: none;
+}
+header ul {
+  margin: 0;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 19.8px;
+}
+a {
+  font-weight: 400;
+}
+/* SEARCH */
+.search-group {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+.search-input {
+  height: 36.1px;
+  width: 162px;
+  border: 1px solid #e9e9e9;
+  background-color: #f4f4f4;
+  border-radius: none;
+}
+input[type="search"] {
+  border: 1px #0099e5;
+}
+
+path {
+  fill: #f4f4f4;
+}
+.search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 36.1px;
+  background-color: #0099e5;
+  border: none;
+}
+
+.right-side {
+  float: right;
+  display: inline-flex;
+}
+@media only screen and (max-width: 1178px) {
+  .search-group {
+    display: none;
+    
+  }
+}
+@media only screen and (max-width: 955px) {
+  ul {
+    display: none;
+  }
+  .hidden-btn{
+    display: grid;
+    float: right;
+    line-height: 77px;
+  }
 }
 </style>
