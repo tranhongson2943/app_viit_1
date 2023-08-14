@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <div class="row" style="margin-top: 24px;">
-      <div class="col-md-6 col-12" style=" padding-right: 4px;">
+      <div class="col-md-6 col-12" style=" padding: 4px;">
         <BannerImg
         :disable_h1="true"
           class="blue-label big-h4"
@@ -10,9 +10,9 @@
           url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
         />
       </div>
-      <div class="col-md-6 col-12" style="padding-left: 4px;">
-        <div class="row" style="padding-bottom: 4px;">
-          <div class="col-6" style="padding-right: 4px;">
+      <div class="col-md-6 col-12" >
+        <div class="row">
+          <div class="col-6" style="padding: 4px;">
             <!-- 1 -->
             <BannerImg
             :disable_h1="true"
@@ -22,7 +22,7 @@
               url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace.jpeg"
             />
           </div>
-          <div class="col-6" style="padding-left: 4px;">
+          <div class="col-6" style="padding: 4px;">
             <!-- 2 -->
             <BannerImg
             :disable_h1="true"
@@ -33,8 +33,8 @@
             />
           </div>
         </div>
-        <div class="row" style="padding-top: 4px; ">
-          <div class="col-6" style="padding-right: 4px; padding-bottom: -8px;">
+        <div class="row">
+          <div class="col-6" style="padding: 4px; ">
             <!-- 3 -->
             <BannerImg
             :disable_h1="true"
@@ -44,7 +44,7 @@
               url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/laptop-typing.jpeg"
             />
           </div>
-          <div class="col-6" style="padding-left: 4px; ">
+          <div class="col-6" style="padding: 4px; ">
             <!-- 4 -->
             <BannerImg
             :disable_h1="true"

@@ -1,12 +1,12 @@
 <template>
-  <div >
+  <div>
     <h3>Blogging</h3>
     <hr />
-      <div class="box">
-        <SmallVerticalPost />
-        <SmallVerticalPost />
-        <SmallVerticalPost />
-      </div>
+    <div class="container-fluid">
+      <SmallVerticalPost style="margin-right: 24px;" />
+      <SmallVerticalPost   style="margin-right: 24px;"/>
+      <SmallVerticalPost  />
+    </div>
   </div>
 </template>
 <style scoped>
@@ -25,8 +25,9 @@ hr {
   margin: 0;
   margin-bottom: 25px;
 }
-.box{
-  display: flex;
-  justify-content: space-between;
+.container-fluid{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 </style>

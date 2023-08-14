@@ -18,7 +18,7 @@
     </div>
     </div>
 </template>
-<style>
+<style scoped>
 * {
   padding: 0;
   margin: 0;

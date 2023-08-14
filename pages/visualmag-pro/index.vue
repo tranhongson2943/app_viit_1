@@ -1,70 +1,56 @@
 <template>
   <div class="index-container">
     <div class="index">
-      <Banner style="margin-bottom: 45px"/>
-      <div class="row ">
-        <div class="col-12 col-md-8 " style="padding-right: 17px">
-          <Advertising  style="margin-bottom: 45px" />
-          <Blogging style="margin-bottom: 45px" />
-          <div class="row">
-            <div class="col-md-6" style="padding-right: 17px">
+      <Banner style="margin-bottom: 45px" />
+      <div class="flex-1">
+        <div class="block-1">
+          <Advertising style="margin-bottom: 45px" />
+          <Blogging class="blogging" style="margin-bottom: 45px" />
+          <div class="flex-1-1">
               <WebDesign />
-            </div>
-            <div class="col-md-6" style="padding-left: 17px">
               <Marketing />
-            </div>
           </div>
         </div>
-        <div class="col-md-4" style="padding-left: 17px">
+
+        <div class="block-2">
           <FollowUs />
           <Reviews style="margin-top: 45px" />
           <News style="margin-top: 45px" />
           <Fashion style="margin-top: 45px" />
         </div>
       </div>
-      <div class="row ">
-        <div class="col-4" style="padding-right: 10px">
+      <div class="flex-2">
+        <BannerImg
+            class="green-label"
+            h1="MARKETING"
+            h4="How to Use DaaS Tools in Your Marketing Analysis"
+            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace.jpeg"
+          />
           <BannerImg
             class="green-label"
             h1="MARKETING"
             h4="How to Use DaaS Tools in Your Marketing Analysis"
             url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace.jpeg"
           />
-        </div>
-
-        <div
-          class="col-4"
-          style="padding-bottom: 0px; padding-left: 10px; padding-right: 10px"
-        >
           <BannerImg
             class="green-label"
             h1="MARKETING"
             h4="How to Use DaaS Tools in Your Marketing Analysis"
             url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace.jpeg"
           />
-        </div>
-        <div class="col-4" style="padding-left: 10px">
-          <BannerImg
-            class="green-label"
-            h1="MARKETING"
-            h4="How to Use DaaS Tools in Your Marketing Analysis"
-            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace.jpeg"
-          />
-        </div>
       </div>
-      <div class="row my-4">
-        <div class="col-md-8 col-12" style="padding-right: 17px">
-          <SocialMedia  style="margin-bottom: 45px"/>
+      <div class="flex-3">
+        <div >
+          <SocialMedia style="margin-bottom: 45px" />
           <Technology />
         </div>
-        <div class="col-md-4" style="padding-left: 17px">
-          <Fashion/>
-          <Business style="margin-bottom: 45px"/>
-          <WordPress style="margin-bottom: 45px"/>
-          <FilterByTag style="margin-bottom: 45px"/>
+        <div >
+          <Fashion />
+          <Business style="margin-bottom: 45px" />
+          <WordPress style="margin-bottom: 45px" />
+          <FilterByTag style="margin-bottom: 45px" />
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -75,11 +61,44 @@
   padding: 0;
   margin: 0;
 }
+
 .index-container {
   display: flex;
   justify-content: center;
+  padding: 0 17px;
 }
 .index {
   width: 1180px;
+}
+.flex-1 {
+  display: flex;
+  column-gap: 45px;
+}
+.flex-1-1{
+  display: flex;
+  column-gap: 32px;
+}
+.flex-2{
+  display: flex;
+  column-gap: 22px;
+}
+.flex-3{
+  display: flex;
+  column-gap: 45px;
+}
+.block-2 {
+  width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+.block-2{
+  width: 100%;
+}
+.flex-1{
+  display: block;
+}
+.flex-3{
+  display: block;
+}
 }
 </style>

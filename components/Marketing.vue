@@ -25,4 +25,12 @@ hr {
   margin: 0;
   margin-bottom: 25px;
 }
+@media only screen and (max-width:900px) {
+.col-12.col-md-6{
+  padding: 0px;
+}
+.col2{
+  padding-left: 0px;
+}
+}
 </style>

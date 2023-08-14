@@ -2,68 +2,92 @@
   <div class="footer">
     <div class="footer-container1">
       <div class="row">
-        <div class="col-3" style="padding-right: 24px">
-          <h1>Introduction</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris enim
-            velit, laoreet non feugiat et, gravida a nibh. Sed at ex.
-          </p>
-        </div>
-        <div class="col-3" style="padding-right: 24px; padding-left: 24px">
-          <h1>Company</h1>
-          <ul>
-            <li>
-              <a href="">About Us</a>
-            </li>
-            <li>
-              <a href="">Meet Our Team</a>
-            </li>
-            <li>
-              <a href="">News </a>
-            </li>
-            <li>
-              <a href="">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-3" style="padding-right: 24px; padding-left: 24px">
-          <h1>Products</h1>
-          <ul>
-            <li>
-              <a href="">Services</a>
-            </li>
-            <li>
-              <a href="">Products List</a>
-            </li>
-            <li>
-              <a href="">Plans & Pricing</a>
-            </li>
-            <li>
-              <a href="">Partners</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-3" style="padding-right: 24px">
-          <h1>Newsletter</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button class="sub-btn">Subscribe now!</button>
+        <div class="footer-sub-container1">
+          <div
+            class="col-md-3 col-12"
+            style="padding-right: 24px; margin-bottom: 50px"
+          >
+            <h1>Introduction</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              enim velit, laoreet non feugiat et, gravida a nibh. Sed at ex.
+            </p>
+          </div>
+          <div
+            class="col-md-3 col-12"
+            style="padding-right: 48px; margin-bottom: 50px"
+          >
+            <h1>Company</h1>
+            <ul>
+              <li>
+                <a href="">About Us</a>
+              </li>
+              <li>
+                <a href="">Meet Our Team</a>
+              </li>
+              <li>
+                <a href="">News </a>
+              </li>
+              <li>
+                <a href="">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-md-3 col-12"
+            style="padding-right: 48px; margin-bottom: 50px"
+          >
+            <h1>Products</h1>
+            <ul>
+              <li>
+                <a href="">Services</a>
+              </li>
+              <li>
+                <a href="">Products List</a>
+              </li>
+              <li>
+                <a href="">Plans & Pricing</a>
+              </li>
+              <li>
+                <a href="">Partners</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-12" style="padding-right: 24px">
+            <h1>Newsletter</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="sub-btn">Subscribe now!</button>
+          </div>
         </div>
       </div>
       <div class="row" style="margin: 32px 6.4px 0px; padding: 16px 0px 32px">
-        <div
-          class="col"
-         
-        >
-          <div class="row"  style="display: flex; justify-content: center; align-items: center; margin-bottom:14px; ">
-            <label for="">Single Page</label>
-            <label for="">Full Width </label>
-            <label for="">404 Page </label>
-            <label for="">Search Results</label>
+        <div class="col">
+          <div class="row">
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                margin-bottom: 14px;
+              "
+            >
+              <label for="">Single Page</label>
+              <label for="">Full Width </label>
+              <label for="">404 Page </label>
+              <label for="">Search Results</label>
+            </div>
           </div>
-          <div class="row"  style="display: flex; justify-content: center; align-items: center; margin-bottom:13px">
-            <p>WordPress Theme by WPEnjoy</p>
+          <div class="row">
+            <p
+              style="
+                display: flex;
+                justify-content: center;
+                margin-bottom: 13px;
+              "
+            >
+              WordPress Theme by WPEnjoy
+            </p>
           </div>
-          <div class="row"  style="display: flex; justify-content: center; align-items: center">
+          <div class="row" style="display: flex; justify-content: center">
             <div class="symbol-container">
               <a
                 href="
@@ -399,6 +423,10 @@
   display: flex;
   justify-content: center;
 }
+.footer-sub-container1 {
+  display: flex;
+  flex-direction: row;
+}
 .footer-container1 {
   width: 1180px;
 }
@@ -429,7 +457,12 @@ ul li {
 h1 {
   margin-bottom: 10px;
 }
-label{
+label {
   padding: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .footer-sub-container1 {
+    display: inline;
+  }
 }
 </style>
