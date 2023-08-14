@@ -53,11 +53,11 @@
         </div>
       </div>
       <div class="row my-4">
-        <div class="col-8" style="padding-right: 17px">
+        <div class="col-md-8 col-12" style="padding-right: 17px">
           <SocialMedia  style="margin-bottom: 45px"/>
           <Technology />
         </div>
-        <div class="col-4" style="padding-left: 17px">
+        <div class="col-md-4" style="padding-left: 17px">
           <Fashion/>
           <Business style="margin-bottom: 45px"/>
           <WordPress style="margin-bottom: 45px"/>
