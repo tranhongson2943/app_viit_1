@@ -3,6 +3,7 @@
     <div class="row" style="margin-top: 24px;">
       <div class="col-md-6 col-12" style=" padding-right: 4px;">
         <BannerImg
+        :disable_h1="true"
           class="blue-label big-h4"
           h1="ADVERTISING"
           h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
@@ -14,6 +15,7 @@
           <div class="col-6" style="padding-right: 4px;">
             <!-- 1 -->
             <BannerImg
+            :disable_h1="true"
               class="green-label"
               h1="MARKETING"
               h4="How to Use DaaS Tools in Your Marketing Analysis"
@@ -23,6 +25,7 @@
           <div class="col-6" style="padding-left: 4px;">
             <!-- 2 -->
             <BannerImg
+            :disable_h1="true"
               class="orange-label"
               h1="MARKETING"
               h4="How to Humanize AI-Generated Marketing Content"
@@ -34,6 +37,7 @@
           <div class="col-6" style="padding-right: 4px; padding-bottom: -8px;">
             <!-- 3 -->
             <BannerImg
+            :disable_h1="true"
               class="weird-green-label"
               h1="WEB DESIGN"
               h4="How to Run an E-Commerce Marketing Campaign"
@@ -43,6 +47,7 @@
           <div class="col-6" style="padding-left: 4px; ">
             <!-- 4 -->
             <BannerImg
+            :disable_h1="true"
               class="pink-label"
               h1="WEB DESIGN"
               h4="The Best Project Management Software for Beginners"

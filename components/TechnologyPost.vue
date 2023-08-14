@@ -1,30 +1,44 @@
-<template>
-  <div class="card">
-    <img
-      src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
-      class="card-img-top"
-    />
-    <div class="card-body">
-      <div class="name-date">
-        <span>John Doe</span>
-      <span class="date">April 27, 2021</span>
-      </div>
+<template>   
+    <div class="container-fluid mb-4">
+        <div class="content" >
+            <img src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg" alt="" >
+           
+           <div class="text">
+
 
       <h5 class="card-title">
         5 Steps for Using Paid Internet Advertising to Drive Conversions
       </h5>
+      <div class="name-date">
+        <span>John Doe</span>
+      <span class="date">April 27, 2021</span>
+      </div>
       <p class="card-text gray">
         Some quick example text to build on the card title and make up the bulk
         of the card's content.
       </p>
-    </div>
-  </div>
-</template>
+           </div> 
+        </div>
+</div>
+
     
-    <style scoped>
-    *{
-      font-family: sans-serif;
-    }
+</template>
+
+<style scoped>
+*,*::before,*::after{
+  padding: 0;
+  margin: 0;
+}
+img {
+ max-width: 240px;
+  height: auto;
+  margin-right: 26px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
 .date {
   color: #888888;
   font-weight: 400;
@@ -36,14 +50,6 @@
 }
 span{
   font-weight: 700;
-}
-.card {
-  border: none;
-}
-.card-body{
-  padding-bottom:  0;
-  padding-left: 0;
-  padding-right: 0;
 }
 h5{
   font-weight: 700;

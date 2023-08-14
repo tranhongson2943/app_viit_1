@@ -3,7 +3,9 @@
       <h3>Filter By Tag</h3>
       <hr />
       <BannerImg
-            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/office-graph2.jpeg"
+      :disable_h1="false"
+      h4="How to Create the Perfect H1 Tag for SEO"
+            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/04/office-supplies-400x266.jpeg"
           />
     </div>
   </template>

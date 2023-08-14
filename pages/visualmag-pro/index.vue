@@ -54,9 +54,11 @@
       </div>
       <div class="row my-4">
         <div class="col-8" style="padding-right: 17px">
-          <SocialMedia />
+          <SocialMedia  style="margin-bottom: 45px"/>
+          <Technology />
         </div>
         <div class="col-4" style="padding-left: 17px">
+          <Fashion/>
           <Business style="margin-bottom: 45px"/>
           <WordPress style="margin-bottom: 45px"/>
           <FilterByTag style="margin-bottom: 45px"/>

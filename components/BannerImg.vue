@@ -2,7 +2,8 @@
   <a href="">
     <img class="h-100 w-100" :src="url_img" alt="" />
     <div class="text-overlay">
-      <h1>{{ h1 }}</h1>
+      <h1 v-if="disable_h1">{{ h1 }}</h1>
+    <div v-else></div>
       <h4>{{ h4 }}</h4>
     </div>
   </a>
