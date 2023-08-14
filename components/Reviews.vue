@@ -3,7 +3,6 @@
     <h3>Reviews</h3>
     <hr />
     <BannerImg
-          h4="The 6-Step Guide to Make Your Mobile Site Load FasterThe 6-Step Guide to Make Your Mobile Site Load Faster"
           url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/office-graph2.jpeg"
         />
     <div class="list-link">

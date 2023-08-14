@@ -57,7 +57,9 @@
           <SocialMedia />
         </div>
         <div class="col-4" style="padding-left: 17px">
-          <Business />
+          <Business style="margin-bottom: 45px"/>
+          <WordPress style="margin-bottom: 45px"/>
+          <FilterByTag style="margin-bottom: 45px"/>
         </div>
       </div>
 
@@ -65,9 +67,6 @@
   </div>
 </template>
 
-<script>
-export default {};
-</script>
 <style scoped>
 * {
   font-family: sans-serif;
