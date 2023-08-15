@@ -1,7 +1,9 @@
 <template>
   <div>
-    <h3>{{ title }}</h3>
-    <hr />
+    <h3>
+      <label class="title">{{ title }}</label>
+      <hr />
+    </h3>
     <div class="business-container">
       <SmallVerticalPost
         h5="SEO is Turning into a Questions and Answers Game
@@ -43,7 +45,6 @@ export default {
 }
 
 h3 {
-  margin-bottom: 9px;
   font-weight: 700;
   font-size: 21px;
 }
@@ -56,5 +57,9 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 22px;
+}
+.title {
+  padding-bottom: 9px;
+  border-bottom: 2px solid #0099e5;
 }
 </style>

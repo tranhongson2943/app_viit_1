@@ -19,7 +19,7 @@
           <Group-4sm title="Fashion" style="margin-top: 45px" />
         </div>
       </div>
-      <div class="flex-2">
+      <div class="flex-2" style="margin-bottom: 45px">
         <BannerImg
             class="green-label"
             h1="MARKETING"
@@ -45,7 +45,7 @@
           <Technology />
         </div>
         <div class="fashion-col">
-          <Group-4sm title="Lifestyle"/>
+          <Group-4sm title="Lifestyle" style="margin-bottom: 45px"/>
           <Group2-2 title="Business" style="margin-bottom: 45px" />
           <Group-4sm title="WordPress" style="margin-bottom: 45px" />
           <FilterByTag style="margin-bottom: 45px" />

@@ -1,21 +1,9 @@
 <template>
   <div>
-    <h3>Social Media</h3>
-    <hr />
-    <!-- <div class="row">
-      <div class="col-6" style="padding-right: 10px;">
-        <VerticalPost
-        />
-        <VerticalPost
-        />
-      </div>
-      <div class="col-6" style="padding-left: 10px;">
-        <VerticalPost
-        />
-        <VerticalPost     
-        />
-      </div>
-    </div> -->
+    <h3>
+      <label class="title">Social Media</label>
+      <hr />
+    </h3>
     <div class="socialmedia-container">
       <VerticalPost />
       <VerticalPost />
@@ -31,7 +19,6 @@
   font-family: sans-serif;
 }
 h3 {
-  margin-bottom: 9px;
   font-weight: 700;
   font-size: 21px;
 }
@@ -44,5 +31,9 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 22px;
+}
+.title {
+  padding-bottom: 9px;
+  border-bottom: 2px solid #0099e5;
 }
 </style>

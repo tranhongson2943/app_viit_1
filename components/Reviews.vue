@@ -1,7 +1,9 @@
 <template>
   <div>
-    <h3>Reviews</h3>
-    <hr />
+    <h3>
+      <label class="title">Reviews</label>
+      <hr />
+    </h3>
     <BannerImg
           url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/office-graph2.jpeg"
         />
@@ -20,7 +22,6 @@
   font-family: sans-serif;
 }
 h3 {
-  margin-bottom: 9px;
   font-weight: 700;
   font-size: 21px;
 }
@@ -36,5 +37,9 @@ hr {
 }
 .list-link a {
   color: black;
+}
+.title {
+  padding-bottom: 9px;
+  border-bottom: 2px solid #0099e5;
 }
 </style>

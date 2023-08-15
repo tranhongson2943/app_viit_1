@@ -1,7 +1,9 @@
 <template>
     <div>
-      <h3>Filter By Tag</h3>
+      <h3>
+      <label class="title">Filter By Tag</label>
       <hr />
+    </h3>
       <BannerImg
       :disable_h1="false"
       url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/04/office-supplies-400x266.jpeg"
@@ -16,10 +18,13 @@
     font-family: sans-serif;
   }
   h3 {
-    margin-bottom: 9px;
     font-weight: 700;
     font-size: 21px;
   }
+  .title {
+  padding-bottom: 9px;
+  border-bottom: 2px solid #0099e5;
+}
   hr {
     padding: 0;
     margin: 0;

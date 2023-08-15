@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h3>Blogging</h3>
-    <hr />
+    <h3> <label class="title">Blogging</label>     <hr /></h3>
     <div class="blog-container">
       <SmallVerticalPost
       class="bold-h5"
@@ -34,9 +33,12 @@
   font-family: sans-serif;
 }
 h3 {
-  margin-bottom: 9px;
   font-weight: 700;
   font-size: 21px;
+}
+.title {
+  padding-bottom: 9px;
+  border-bottom: 2px solid #0099e5;
 }
 hr {
   padding: 0;
