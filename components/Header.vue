@@ -120,13 +120,12 @@ a {
   height: 36.1px;
   width: 162px;
   border: 1px solid #e9e9e9;
-  background-color: #f4f4f4;
+  background-color: #F0F0F0;
   border-radius: none;
 }
 input[type="search"] {
   border: 1px #0099e5;
 }
-
 path {
   fill: #f4f4f4;
 }

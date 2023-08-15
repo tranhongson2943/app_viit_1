@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid mb-4">
+  <div class="post-container">
     <div class="content">
       <img
         src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
@@ -36,6 +36,9 @@ img {
   max-width: 240px;
   height: auto;
   margin-right: 26px;
+}
+.post-container{
+  margin-bottom: 33px;
 }
 .date {
   color: #888888;
