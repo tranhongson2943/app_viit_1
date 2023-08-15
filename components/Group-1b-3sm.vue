@@ -4,7 +4,7 @@
       <label class="title">{{ title }}</label>
       <hr />
     </h3>
-    <VerticalPost style="margin-bottom: 35px;"/>
+    <VerticalPost :p="p" :h5="h5" :date="date" :name="name" :url="url" style="margin-bottom: 35px;"/>
     <HorizontalPost/>
     <HorizontalPost/>
     <HorizontalPost/>
@@ -12,7 +12,7 @@
 </template>
 <script>
 export default {
-  props:['title']
+  props:['title','p','h5','date','name','url']
 }
 </script>
 <style scoped>

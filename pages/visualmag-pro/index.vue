@@ -7,8 +7,8 @@
           <Advertising style="margin-bottom: 45px" />
           <Blogging class="blogging" style="margin-bottom: 45px" />
           <div class="flex-1-1">
-              <Group-1b-3sm title="Web Design"/>
-              <Group-1b-3sm title="Marketing"/>
+              <Group-1b-3sm title="Web Design" p="How to Humanize AI-Generated Marketing Content" h5="5 Steps for Using Paid Internet Advertising to Drive Conversions" date="April 27, 2021" name="John Doe" url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/business-working2-400x266.jpeg"/>
+              <Group-1b-3sm title="Marketing" p="How to Humanize AI-Generated Marketing Content" h5="5 Steps for Using Paid Internet Advertising to Drive Conversions" date="April 27, 2021" name="John Doe" url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/facebook-social-400x266.jpeg"/>
           </div>
         </div>
 
@@ -21,22 +21,16 @@
       </div>
       <div class="flex-2" style="margin-bottom: 45px">
         <BannerImg
-            class="green-label"
-            h1="MARKETING"
-            h4="How to Use DaaS Tools in Your Marketing Analysis"
-            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace.jpeg"
+            h4="How to Use Amazon Posts to Promote Your Products"
+            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/desk-office-400x266.jpeg"
           />
           <BannerImg
-            class="green-label"
-            h1="MARKETING"
-            h4="How to Use DaaS Tools in Your Marketing Analysis"
-            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace.jpeg"
+            h4="The Definitive Guide to Online Reputation Management"
+            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/laptop-work-400x266.jpeg"
           />
           <BannerImg
-            class="green-label"
-            h1="MARKETING"
             h4="How to Use DaaS Tools in Your Marketing Analysis"
-            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace.jpeg"
+            url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/04/education-business-400x266.jpeg"
           />
       </div>
       <div class="flex-3">

@@ -7,7 +7,7 @@
 
     <div class="flex-container">
       <div class="verticalpost-col">
-        <VerticalPost />
+        <VerticalPost p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta felis non nibh..." h5="5 Steps for Using Paid Internet Advertising to Drive Conversions" date="April 27, 2021" name="John Doe" url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/finance-flat-400x266.jpeg"/>
       </div>
       <div class="horizontalpost-col">
         <HorizontalPost />

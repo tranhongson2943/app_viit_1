@@ -1,26 +1,29 @@
 <template>
   <div class="card">
     <img
-      src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
+      :src="url"
       class="card-img"
     />
     <div class="card-body">
       <div class="name-date">
-        <span>John Doe</span>
-        <span class="date">April 27, 2021</span>
+        <span>{{ name }}</span>
+        <span class="date">{{ date }}</span>
       </div>
 
       <h5 class="card-title">
-        5 Steps for Using Paid Internet Advertising to Drive Conversions
+        {{ h5 }}
       </h5>
       <p class="card-text gray">
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
+        {{ p }}
       </p>
     </div>
   </div>
 </template>
-    
+    <script>
+    export default {
+      props:['p','h5','date','name','url']
+    }
+    </script>
     <style scoped>
 * {
   font-family: sans-serif;

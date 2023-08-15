@@ -13,28 +13,28 @@
           class="green-label "
           h1="ADVERTISING"
           h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
-          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
+          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace-400x266.jpeg"
         />
         <BannerImg
           :disable_h1="true"
           class="orange-label "
           h1="ADVERTISING"
           h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
-          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
+          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/business-working2-400x266.jpeg"
         />
         <BannerImg
           :disable_h1="true"
           class="weird-green-label "
           h1="ADVERTISING"
           h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
-          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
+          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/laptop-typing-400x266.jpeg"
         />
         <BannerImg
           :disable_h1="true"
           class="pink-label "
           h1="ADVERTISING"
           h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
-          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
+          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/business-working3-400x266.jpeg"
         />
     </div>
    
@@ -58,6 +58,7 @@
 .feature{
   grid-row: span 2;
   grid-column: span 2;
+  object-fit: cover;
 }
 .blue-label ::v-deep h1 {
   background-color: #0099e5;

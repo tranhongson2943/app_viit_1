@@ -1,12 +1,14 @@
 <template>
-  <a href="" style="position: relative; ">
-    <img  :src="url_img" alt="" />
-    <div class="text-overlay">
-      <h1 v-if="disable_h1">{{ h1 }}</h1>
-    <div v-else></div>
-      <h4>{{ h4 }}</h4>
-    </div>
-  </a>
+  <div class="banner-img-container">
+    <a href="" style="position: relative">
+      <img :src="url_img" alt="" />
+      <div class="text-overlay">
+        <h1 v-if="disable_h1">{{ h1 }}</h1>
+        <div v-else></div>
+        <h4>{{ h4 }}</h4>
+      </div>
+    </a>
+  </div>
 </template>
 <script>
 export default {
@@ -19,10 +21,16 @@ export default {
   margin: 0;
   color: white;
 }
+.banner-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 .text-overlay {
   position: absolute;
   bottom: 20px;
-  left:20px;
+  left: 20px;
   box-sizing: border-box;
 }
 .text-overlay:hover {
@@ -48,5 +56,8 @@ h4 {
 img {
   filter: brightness(80%);
   width: 100%;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 </style>

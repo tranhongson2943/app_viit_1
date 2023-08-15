@@ -5,7 +5,6 @@
       <hr />
     </h3>
       <BannerImg
-      :disable_h1="false"
       url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/04/office-supplies-400x266.jpeg"
       h4="How to Create the Perfect H1 Tag for SEO"
           />
