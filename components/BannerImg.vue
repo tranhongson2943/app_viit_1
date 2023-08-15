@@ -35,7 +35,6 @@ h1 {
   background-color: #34bf49;
   font-weight: 400;
   font-size: 11px;
-  margin-bottom: 16px;
 }
 h4 {
   font-family: sans-serif;

@@ -7,8 +7,8 @@
           <Advertising style="margin-bottom: 45px" />
           <Blogging class="blogging" style="margin-bottom: 45px" />
           <div class="flex-1-1">
-              <WebDesign />
-              <Marketing />
+              <Group-1b-3sm title="Web Design"/>
+              <Group-1b-3sm title="Marketing"/>
           </div>
         </div>
 
@@ -16,7 +16,7 @@
           <FollowUs />
           <Reviews style="margin-top: 45px" />
           <Group2-2 title="News" style="margin-top: 45px" />
-          <Fashion style="margin-top: 45px" />
+          <Group-4sm title="Fashion" style="margin-top: 45px" />
         </div>
       </div>
       <div class="flex-2">
@@ -45,9 +45,9 @@
           <Technology />
         </div>
         <div class="fashion-col">
-          <Fashion />
+          <Group-4sm title="Lifestyle"/>
           <Group2-2 title="Business" style="margin-bottom: 45px" />
-          <WordPress style="margin-bottom: 45px" />
+          <Group-4sm title="WordPress" style="margin-bottom: 45px" />
           <FilterByTag style="margin-bottom: 45px" />
         </div>
       </div>

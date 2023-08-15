@@ -429,7 +429,6 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  margin-bottom: 15px;
 }
 ul li {
   font-family: "Inter";
@@ -458,7 +457,12 @@ label {
 }
 @media only screen and (max-width: 768px) {
   .row1 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
+  .column {
+  width: 100%;
+}
 }
 </style>

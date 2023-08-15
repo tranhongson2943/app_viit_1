@@ -155,9 +155,10 @@ path {
     display: none;
   }
   .hidden-btn{
-    display: grid;
+    display: flex;
     float: right;
-    line-height: 77px;
+    
+    align-items: center;
   }
 }
 </style>
