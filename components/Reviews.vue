@@ -11,8 +11,11 @@
         />
     <div class="list-link">
       <a href="">How to Use Instagram Story Highlights on a Brand Account</a>
+    <br/>
       <a href="">How to Use Thought Leadership Marketing </a>
+      <br/>
       <a href="">How Does IaaS Affect Your e-Commerce Site</a>
+      <br/>
       <a href="">What Are Influencer Engagement Marketplaces</a>
     </div>
   </div>
@@ -33,6 +36,7 @@ hr {
   margin-bottom: 25px;
 }
 .list-link {
+  display: block;
   line-height: 220%;
   font-size: 17px;
   margin-top: 21px;
