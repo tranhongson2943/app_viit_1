@@ -1,5 +1,5 @@
 <template>
-  <div class="banner-img-container" style="position: relative">
+  <div class="banner-img-container">
       <img :src="url_img" alt="" />
       <div class="text-overlay">
         <h1 v-if="disable_h1">{{ h1 }}</h1>
@@ -22,6 +22,7 @@ export default {
 .banner-img-container {
   display: flex;
   overflow: hidden;
+  position: relative
 }
 .text-overlay {
   position: absolute;
