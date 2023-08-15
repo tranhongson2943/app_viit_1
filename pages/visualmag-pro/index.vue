@@ -116,5 +116,10 @@
 .right-container{
   width: 100%;
 }
+.flex-1-1{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
 }
 </style>

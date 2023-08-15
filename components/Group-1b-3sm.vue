@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>
-      <label class="title">Advertising</label>
+      <label class="title">{{ title }}</label>
       <hr />
     </h3>
 

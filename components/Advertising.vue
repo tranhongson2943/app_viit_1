@@ -54,9 +54,11 @@ hr {
 @media only screen and (max-width: 768px) {
   .flex-container {
     display: block;
+
   }
   .verticalpost-col {
     width: 100%;
+    margin-bottom: 32px;
   }
   .horizontalpost-col {
     width: 100%;
