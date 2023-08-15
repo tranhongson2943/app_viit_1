@@ -6,9 +6,9 @@
         <h1 v-if="disable_h1">{{ h1 }}</h1>
         <div v-else></div>
         <h4>{{ h4 }}</h4>
-        <div>
+        <!-- <div>
           <label for="">SEO</label>
-        </div>
+        </div> -->
       </div>
     </a>
   </div>

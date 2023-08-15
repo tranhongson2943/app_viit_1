@@ -2,7 +2,7 @@
   <div class="index-container">
     <div class="index">
       <Banner style="margin-bottom: 45px" />
-      <div class="flex-1">
+      <div class="flex-1" style="margin-bottom: 45px">
         <div class="right-container">
           <Advertising style="margin-bottom: 45px" />
           <Blogging class="blogging" style="margin-bottom: 45px" />
@@ -96,6 +96,10 @@
 @media only screen and (max-width: 768px) {
 .left-container{
   width: 100%;
+}
+.flex-1-1{
+  display: block;
+
 }
 .social-col{
   width: 100%;

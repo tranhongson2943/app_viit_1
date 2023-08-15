@@ -47,6 +47,9 @@ hr {
 }
 .horizontalpost-col {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }
 @media only screen and (max-width: 768px) {
   .flex-container {

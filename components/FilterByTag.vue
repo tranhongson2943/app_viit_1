@@ -31,7 +31,7 @@ hr {
   margin-bottom: 25px;
 }
 .big-h4 ::v-deep h4 {
-  font-size: 26px;
+  font-size: 24px;
   padding-right: 20px;
 }
 </style>

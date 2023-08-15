@@ -1,5 +1,5 @@
 <template>
-  <div class="b-container-fluid mb-4">
+  <div class="post-container">
       <img
         src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
         alt=""
@@ -21,7 +21,7 @@
 img {
   width: 120px;
   height: 79.8px;
-  float: left;
+float: left;
   margin-right: 17px;
 }
 h4 {

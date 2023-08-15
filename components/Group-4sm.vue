@@ -4,10 +4,13 @@
       <label class="title">{{ title }}</label>
       <hr />
     </h3>
+    <div class="content">
+      <HorizontalPost />
     <HorizontalPost />
     <HorizontalPost />
     <HorizontalPost />
-    <HorizontalPost />
+    </div>
+
   </div>
 </template>
 <script>
@@ -29,6 +32,11 @@ hr {
   padding: 0;
   margin: 0;
   margin-bottom: 25px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 .title {
   padding-bottom: 9px;
