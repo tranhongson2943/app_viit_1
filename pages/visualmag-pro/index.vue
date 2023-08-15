@@ -67,7 +67,7 @@
 }
 .flex-1 {
   display: flex;
-  column-gap: 45px;
+  column-gap: 33px;
 }
 .flex-1-1{
   display: flex;
@@ -79,7 +79,7 @@
 }
 .flex-3{
   display: flex;
-  column-gap: 45px;
+  column-gap: 33px;
 }
 .left-container {
   width: 33.33%;

@@ -7,21 +7,18 @@
         h5="SEO is Turning into a Questions and Answers Game
   "
         url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/laptop-electronic-400x266.jpeg"
-        style="padding-bottom: 10px"
       />
       <SmallVerticalPost
       class="bold-h5"
         h5="SEO is Turning into a Questions and Answers Game
   "
         url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/laptop-electronic-400x266.jpeg"
-        style="padding-bottom: 10px"
       />
       <SmallVerticalPost
       class="bold-h5"
         h5="SEO is Turning into a Questions and Answers Game
   "
         url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/laptop-electronic-400x266.jpeg"
-        style="padding-bottom: 10px"
       />
     </div>
   </div>
