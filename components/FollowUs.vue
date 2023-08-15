@@ -56,6 +56,10 @@ hr{
 a{
   align-items: center;
 }
+h3 {
+  font-weight: 700;
+  font-size: 21px;
+}
 path{
 fill:#37ACE2
 }
@@ -92,12 +96,6 @@ color : #1778F2;
   justify-content: space-between;
   width: 100%;
   row-gap: 10px;
-}
-label{
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  padding-right: 5px;
 }
 svg{
   margin-right: 12px;

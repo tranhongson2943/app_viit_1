@@ -3,7 +3,7 @@
     <div class="index">
       <Banner style="margin-bottom: 45px" />
       <div class="flex-1">
-        <div class="block-1">
+        <div class="right-container">
           <Advertising style="margin-bottom: 45px" />
           <Blogging class="blogging" style="margin-bottom: 45px" />
           <div class="flex-1-1">
@@ -12,7 +12,7 @@
           </div>
         </div>
 
-        <div class="block-2">
+        <div class="left-container">
           <FollowUs />
           <Reviews style="margin-top: 45px" />
           <Group2-2 title="News" style="margin-top: 45px" />
@@ -81,10 +81,10 @@
   display: flex;
   column-gap: 45px;
 }
-.block-2 {
+.left-container {
   width: 33.33%;
 }
-.block-1{
+.right-container{
   width: 66.66%;
 }
 .social-col{
@@ -94,7 +94,7 @@
   width: 33.33%;
 }
 @media only screen and (max-width: 768px) {
-.block-2{
+.left-container{
   width: 100%;
 }
 .social-col{
@@ -109,7 +109,7 @@
 .flex-3{
   display: block;
 }
-.block-1{
+.right-container{
   width: 100%;
 }
 }
