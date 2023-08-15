@@ -1,6 +1,6 @@
 <template>
-  <a href="">
-    <img class="h-100 w-100" :src="url_img" alt="" />
+  <a href="" style="position: relative; ">
+    <img  :src="url_img" alt="" />
     <div class="text-overlay">
       <h1 v-if="disable_h1">{{ h1 }}</h1>
     <div v-else></div>
@@ -18,12 +18,11 @@ export default {
   padding: 0;
   margin: 0;
   color: white;
-  word-wrap: break-word;
 }
 .text-overlay {
   position: absolute;
-  bottom: 22px;
-  left: 22px;
+  bottom: 20px;
+  left:20px;
   box-sizing: border-box;
 }
 .text-overlay:hover {

@@ -1,8 +1,8 @@
 <template>
-  <div >
+  <div>
     <h3>Social Media</h3>
     <hr />
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-6" style="padding-right: 10px;">
         <VerticalPost
         />
@@ -15,8 +15,14 @@
         <VerticalPost     
         />
       </div>
+    </div> -->
+    <div class="socialmedia-container">
+      <VerticalPost />
+      <VerticalPost />
+      <VerticalPost />
+      <VerticalPost />
     </div>
-    </div>
+  </div>
 </template>
 <style scoped>
 * {
@@ -33,5 +39,10 @@ hr {
   padding: 0;
   margin: 0;
   margin-bottom: 25px;
+}
+.socialmedia-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
 }
 </style>

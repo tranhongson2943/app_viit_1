@@ -71,6 +71,7 @@ header {
   line-height: 77px;
   display: flex;
   justify-content: center;
+  padding: 0 17px;
 }
 .header-container {
   width: 1180px;

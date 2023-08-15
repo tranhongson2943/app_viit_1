@@ -2,12 +2,12 @@
   <div class="card">
     <img
       src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
-      class="card-img-top"
+      class="card-img"
     />
     <div class="card-body">
       <div class="name-date">
         <span>John Doe</span>
-      <span class="date">April 27, 2021</span>
+        <span class="date">April 27, 2021</span>
       </div>
 
       <h5 class="card-title">
@@ -22,35 +22,39 @@
 </template>
     
     <style scoped>
-    *{
-      font-family: sans-serif;
-    }
+* {
+  font-family: sans-serif;
+}
 .date {
   color: #888888;
   font-weight: 400;
   font-family: "Inter";
   font-size: 14px;
 }
-.name-date{
+.name-date {
   margin-bottom: 17px;
 }
-span{
+span {
   font-weight: 700;
+}
+.card-img {
+  width: 100%;
+  object-fit: cover;
 }
 .card {
   border: none;
 }
-.card-body{
-  padding-bottom:  0;
+.card-body {
+  padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
 }
-h5{
+h5 {
   font-weight: 700;
   font-size: 22px;
   margin-bottom: 17px;
 }
-p{
+p {
   color: #888888;
   font-weight: 400;
   font-family: "Inter";

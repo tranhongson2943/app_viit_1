@@ -29,5 +29,6 @@ h4{
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word;
+  margin-bottom: 4px;
 }
 </style>

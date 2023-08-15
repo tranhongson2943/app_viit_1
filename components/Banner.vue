@@ -1,62 +1,43 @@
 <template>
   <div class="banner">
-    <div class="row" style="margin-top: 24px;">
-      <div class="col-md-6 col-12" style=" padding: 4px;">
-        <BannerImg
-        :disable_h1="true"
-          class="blue-label big-h4"
+    <div class="img-grid">
+      <BannerImg
+          :disable_h1="true"
+          class="feature blue-label big-h4"
           h1="ADVERTISING"
           h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
           url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
         />
-      </div>
-      <div class="col-md-6 col-12" >
-        <div class="row">
-          <div class="col-6" style="padding: 4px;">
-            <!-- 1 -->
-            <BannerImg
-            :disable_h1="true"
-              class="green-label"
-              h1="MARKETING"
-              h4="How to Use DaaS Tools in Your Marketing Analysis"
-              url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/top-workspace.jpeg"
-            />
-          </div>
-          <div class="col-6" style="padding: 4px;">
-            <!-- 2 -->
-            <BannerImg
-            :disable_h1="true"
-              class="orange-label"
-              h1="MARKETING"
-              h4="How to Humanize AI-Generated Marketing Content"
-              url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/business-working2.jpeg"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6" style="padding: 4px; ">
-            <!-- 3 -->
-            <BannerImg
-            :disable_h1="true"
-              class="weird-green-label"
-              h1="WEB DESIGN"
-              h4="How to Run an E-Commerce Marketing Campaign"
-              url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/laptop-typing.jpeg"
-            />
-          </div>
-          <div class="col-6" style="padding: 4px; ">
-            <!-- 4 -->
-            <BannerImg
-            :disable_h1="true"
-              class="pink-label"
-              h1="WEB DESIGN"
-              h4="The Best Project Management Software for Beginners"
-              url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/business-working3.jpeg"
-            />
-          </div>
-        </div>
-      </div>
+        <BannerImg
+          :disable_h1="true"
+          class="green-label "
+          h1="ADVERTISING"
+          h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
+          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
+        />
+        <BannerImg
+          :disable_h1="true"
+          class="orange-label "
+          h1="ADVERTISING"
+          h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
+          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
+        />
+        <BannerImg
+          :disable_h1="true"
+          class="weird-green-label "
+          h1="ADVERTISING"
+          h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
+          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
+        />
+        <BannerImg
+          :disable_h1="true"
+          class="pink-label "
+          h1="ADVERTISING"
+          h4="The Ultimate Guide To Joining or Hosting A Twitter Chat"
+          url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/macbook-laptop.jpeg"
+        />
     </div>
+   
   </div>
 </template>
 <script>
@@ -67,10 +48,26 @@
   margin: 0;
 }
 .banner {
-  display: flex;
+  margin-top: 24px;
+}
+.img-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+.feature{
+  grid-row: span 2;
+  grid-column: span 2;
 }
 .blue-label ::v-deep h1 {
   background-color: #0099e5;
+}
+.ratio-50{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.gap{
+  gap: 8px;
 }
 .green-label ::v-deep h1 {
   background-color: #34bf49;
@@ -86,5 +83,10 @@
 }
 .big-h4 ::v-deep h4 {
   font-size: 26px;
+}
+@media only screen and (max-width: 900px) {
+.img-grid{
+  grid-template-columns: 1fr 1fr ;
+}
 }
 </style>

@@ -1,27 +1,26 @@
 <template>   
-    <div class="card" style="height: auto;">
-<img src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg" class="card-img-top" >
+    <div class="card">
+<img :src="url_img" class="card-img-top" >
 <div class="card-body p-0">
- <h5 class="card-title">5 Steps for Using Paid Internet Advertising to Drive Conversions</h5>
+    <h5 href="">{{ h5 }}</h5>
 </div>
 </div>
      
  </template>
- 
+<script>
+export default {
+    props:['url_img', 'h5']
+
+}
+</script>
  <style scoped>
  .card{
      border: none;
- }
- img{
-    margin-bottom: 21px;
+     color: black;
  }
  h5 {
-  font-family: "Inter";
-  font-weight: 700;
-  margin: 0;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
-  font-size: 16px;   
+  font-size: 17px;
+  margin-top: 18px;
+  color: black;
 }
  </style>

@@ -15,7 +15,7 @@
         <div class="block-2">
           <FollowUs />
           <Reviews style="margin-top: 45px" />
-          <News style="margin-top: 45px" />
+          <Group2-2 title="News" style="margin-top: 45px" />
           <Fashion style="margin-top: 45px" />
         </div>
       </div>
@@ -40,13 +40,13 @@
           />
       </div>
       <div class="flex-3">
-        <div >
+        <div class="social-col">
           <SocialMedia style="margin-bottom: 45px" />
           <Technology />
         </div>
-        <div >
+        <div class="fashion-col">
           <Fashion />
-          <Business style="margin-bottom: 45px" />
+          <Group2-2 title="Business" style="margin-bottom: 45px" />
           <WordPress style="margin-bottom: 45px" />
           <FilterByTag style="margin-bottom: 45px" />
         </div>
@@ -69,6 +69,7 @@
 }
 .index {
   width: 1180px;
+  row-gap: 45px;
 }
 .flex-1 {
   display: flex;
@@ -87,11 +88,25 @@
   column-gap: 45px;
 }
 .block-2 {
-  width: 70%;
+  width: 33.33%;
 }
-
+.block-1{
+  width: 66.66%;
+}
+.social-col{
+  width: 66.66%;
+}
+.fashion-col{
+  width: 33.33%;
+}
 @media only screen and (max-width: 768px) {
 .block-2{
+  width: 100%;
+}
+.social-col{
+  width: 100%;
+}
+.fashion-col{
   width: 100%;
 }
 .flex-1{
@@ -99,6 +114,9 @@
 }
 .flex-3{
   display: block;
+}
+.block-1{
+  width: 100%;
 }
 }
 </style>
