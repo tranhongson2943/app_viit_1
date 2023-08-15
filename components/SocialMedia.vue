@@ -5,10 +5,10 @@
       <hr />
     </h3>
     <div class="socialmedia-container">
-      <VerticalPost />
-      <VerticalPost />
-      <VerticalPost />
-      <VerticalPost />
+      <VerticalPost h5="How To Live Stream Pre Recorded Videos To Facebook Page For Free" date="April 27, 2021" name="John Doe" url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2020/06/writing-paper-400x266.jpeg"/>
+      <VerticalPost h5="Best Social Media Marketing Tools For Insane Engagement" date="April 27, 2021" name="John Doe" url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/christmas-xmas-400x266.jpeg"/>
+      <VerticalPost h5="How To Grow Your Facebook Group To Market Your Business" date="April 27, 2021" name="John Doe" url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/mobile-smartphone-400x266.jpeg"/>
+      <VerticalPost h5="How To Live Stream Pre Recorded Videos To Facebook Page For Free" date="April 27, 2021" name="John Doe" url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/06/writing-papers2-400x266.jpeg"/>
     </div>
   </div>
 </template>

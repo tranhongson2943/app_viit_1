@@ -21,12 +21,6 @@ export default {
   margin: 0;
   color: white;
 }
-.banner-img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
 .text-overlay {
   position: absolute;
   bottom: 20px;

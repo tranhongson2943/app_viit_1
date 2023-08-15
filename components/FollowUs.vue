@@ -91,6 +91,7 @@ color : #1778F2;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  row-gap: 10px;
 }
 label{
   font-family: Inter;
