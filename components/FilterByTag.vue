@@ -32,5 +32,6 @@ hr {
 }
 .big-h4 ::v-deep h4 {
   font-size: 26px;
+  padding-right: 20px;
 }
 </style>

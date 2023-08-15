@@ -5,6 +5,8 @@
       <hr />
     </h3>
     <BannerImg
+    class="big-h4"
+    h4="The 6-Step Guide to Make Your Mobile Site Load Faster"
           url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/office-graph2.jpeg"
         />
     <div class="list-link">
@@ -41,5 +43,8 @@ hr {
 .title {
   padding-bottom: 9px;
   border-bottom: 2px solid #0099e5;
+}
+.big-h4 ::v-deep h4 {
+  font-size: 17px;
 }
 </style>

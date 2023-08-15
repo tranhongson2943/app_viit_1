@@ -63,13 +63,6 @@
 .blue-label ::v-deep h1 {
   background-color: #0099e5;
 }
-.ratio-50{
-  flex-grow: 1;
-  flex-basis: 0;
-}
-.gap{
-  gap: 8px;
-}
 .green-label ::v-deep h1 {
   background-color: #34bf49;
 }

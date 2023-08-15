@@ -21,6 +21,10 @@ export default {
   margin: 0;
   color: white;
 }
+.banner-img-container {
+  display: flex;
+  overflow: hidden;
+}
 .text-overlay {
   position: absolute;
   bottom: 20px;
@@ -46,6 +50,8 @@ h4 {
   word-wrap: break-word;
   word-break: break-word;
   font-size: 17px;
+  padding-top: 8px;
+  padding-right: 20px;
 }
 img {
   filter: brightness(80%);
