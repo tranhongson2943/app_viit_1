@@ -1,13 +1,11 @@
 <template>
-  <div class="banner-img-container">
-    <a href="" style="position: relative">
+  <div class="banner-img-container" style="position: relative">
       <img :src="url_img" alt="" />
       <div class="text-overlay">
         <h1 v-if="disable_h1">{{ h1 }}</h1>
         <div v-else></div>
         <h4>{{ h4 }}</h4>
       </div>
-    </a>
   </div>
 </template>
 <script>
@@ -56,7 +54,7 @@ h4 {
 img {
   filter: brightness(80%);
   width: 100%;
-  flex-shrink: 0;
+  display: block;
   min-width: 100%;
   min-height: 100%;
 }
