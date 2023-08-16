@@ -1,11 +1,11 @@
 <template>
   <div class="index">
     <div class="index-container">
-      <Banner style="margin-bottom: 45px" />
-      <div class="flex" style="margin-bottom: 45px">
+      <Banner style="margin-bottom: 40px" />
+      <div class="flex" style="margin-bottom: 40px">
         <div class="right-container">
-          <Advertising style="margin-bottom: 45px" />
-          <Blogging class="blogging" style="margin-bottom: 45px" />
+          <Advertising style="margin-bottom: 40px" />
+          <Blogging class="blogging" style="margin-bottom: 40px" />
           <div class="flex-2">
             <Group-1b-3sm
               title="Web Design"
@@ -28,12 +28,12 @@
 
         <div class="left-container">
           <FollowUs />
-          <Reviews style="margin-top: 45px" />
-          <Group-2sm-2sm title="News" style="margin-top: 45px" />
-          <Group-4sm title="Fashion" style="margin-top: 45px" />
+          <Reviews style="margin-top: 40px" />
+          <Group-2sm-2sm title="News" style="margin-top: 40px" />
+          <Group-4sm title="Fashion" style="margin-top: 40px" />
         </div>
       </div>
-      <div class="flex" style="margin-bottom: 45px">
+      <div class="flex" style="margin-bottom: 40px">
         <BannerImg
           h4="How to Use Amazon Posts to Promote Your Products"
           url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/desk-office-400x266.jpeg"
@@ -49,14 +49,14 @@
       </div>
       <div class="flex">
         <div class="right-container">
-          <SocialMedia style="margin-bottom: 45px" />
+          <SocialMedia style="margin-bottom: 40px" />
           <Technology />
         </div>
         <div class="left-container">
-          <Group-4sm  title="Lifestyle" style="margin-bottom: 45px" />
-          <Group-2sm-2sm title="Business" style="margin-bottom: 45px" />
-          <Group-4sm title="WordPress" style="margin-bottom: 45px" />
-          <FilterByTag style="margin-bottom: 45px" />
+          <Group-4sm  title="Lifestyle" style="margin-bottom: 40px" />
+          <Group-2sm-2sm title="Business" style="margin-bottom: 40px" />
+          <Group-4sm title="WordPress" style="margin-bottom: 40px" />
+          <FilterByTag style="margin-bottom: 40px" />
         </div>
       </div>
     </div>
@@ -81,7 +81,7 @@
 .flex {
   display: flex;
   column-gap: 33px;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 .flex-2 {
   display: flex;
@@ -113,7 +113,7 @@
   .flex-2 {
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 40px;
   }
 }
 </style>
