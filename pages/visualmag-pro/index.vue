@@ -1,13 +1,11 @@
 <template>
   <div class="index">
     <div class="index-container">
-      <div class="flex m-45px">
-        <Banner />
-      </div>
-      <div class="flex m-45px">
+      <Banner style="margin-bottom: 45px" />
+      <div class="flex" style="margin-bottom: 45px">
         <div class="right-container">
-          <Advertising clase="m-45px" />
-          <Blogging class="blogging" />
+          <Advertising style="margin-bottom: 45px" />
+          <Blogging class="blogging" style="margin-bottom: 45px" />
           <div class="flex-2">
             <Group-1b-3sm
               title="Web Design"
@@ -30,12 +28,12 @@
 
         <div class="left-container">
           <FollowUs />
-          <Reviews class="m-45px" />
-          <Group-2sm-2sm clase="m-45px" title="News" />
-          <Group-4sm clase="m-45px" title="Fashion" />
+          <Reviews style="margin-top: 45px" />
+          <Group-2sm-2sm title="News" style="margin-top: 45px" />
+          <Group-4sm title="Fashion" style="margin-top: 45px" />
         </div>
       </div>
-      <div class="flex m-45px">
+      <div class="flex" style="margin-bottom: 45px">
         <BannerImg
           h4="How to Use Amazon Posts to Promote Your Products"
           url_img="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/desk-office-400x266.jpeg"
@@ -51,14 +49,14 @@
       </div>
       <div class="flex">
         <div class="right-container">
-          <SocialMedia class="m-45px"/>
+          <SocialMedia style="margin-bottom: 45px" />
           <Technology />
         </div>
         <div class="left-container">
-          <Group-4sm clase="m-45px" title="Lifestyle" />
-          <Group-2sm-2sm clase="m-45px" title="Business" />
-          <Group-4sm title="WordPress" />
-          <FilterByTag clase="m-45px" />
+          <Group-4sm  title="Lifestyle" style="margin-bottom: 45px" />
+          <Group-2sm-2sm title="Business" style="margin-bottom: 45px" />
+          <Group-4sm title="WordPress" style="margin-bottom: 45px" />
+          <FilterByTag style="margin-bottom: 45px" />
         </div>
       </div>
     </div>
@@ -71,9 +69,7 @@
   padding: 0;
   margin: 0;
 }
-.m-45px {
-  margin-bottom: 45px;
-}
+
 .index-container {
   width: 1180px;
 }
