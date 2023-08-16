@@ -1,9 +1,14 @@
 <template>
   <header>
     <div class="header-container">
-        <button class="hidden-btn">
-          <svg width="24" height="24"><path class="three-line" d="M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z"></path></svg>
-        </button>
+      <button class="hidden-btn">
+        <svg width="24" height="24">
+          <path
+            class="three-line"
+            d="M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z"
+          ></path>
+        </svg>
+      </button>
       <a class="logo-link" href="">
         <img
           class="logo"
@@ -43,7 +48,7 @@
 
           <button class="search-btn" type="submit">
             <svg class="search-icon" width="24" height="24">
-              <path 
+              <path
                 d="M13.5 6C10.5 6 8 8.5 8 11.5c0 1.1.3 2.1.9 3l-3.4 3 1 1.1 3.4-2.9c1 .9 2.2 1.4 3.6 1.4 3 0 5.5-2.5 5.5-5.5C19 8.5 16.5 6 13.5 6zm0 9.5c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"
               ></path>
             </svg>
@@ -77,7 +82,7 @@ header {
   width: 1180px;
 }
 /* HIDDEN BTN */
-.hidden-btn{
+.hidden-btn {
   width: 35.6px;
   height: 35.6px;
   display: flex;
@@ -85,10 +90,15 @@ header {
   align-items: center;
   display: none;
   border: none;
+  float: right;
+  margin-top: 20px;
+  align-items: center;
+  border: 1px solid #E6E6E6;
+  background-color: white;
 }
 
-.three-line{
-fill: #222222;
+.three-line {
+  fill: #222222;
 }
 /* LOGO */
 img.logo {
@@ -120,7 +130,7 @@ a {
   height: 36.1px;
   width: 162px;
   border: 1px solid #e9e9e9;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border-radius: none;
 }
 input[type="search"] {
@@ -146,18 +156,14 @@ path {
 @media only screen and (max-width: 1178px) {
   .search-group {
     display: none;
-    
   }
 }
 @media only screen and (max-width: 955px) {
   ul {
     display: none;
   }
-  .hidden-btn{
-    display: flex;
-    float: right;
-    
-    align-items: center;
+  .hidden-btn {
+    display: inline-flex;
   }
 }
 </style>
