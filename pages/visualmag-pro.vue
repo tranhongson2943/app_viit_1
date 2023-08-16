@@ -4,7 +4,7 @@
     <NuxtChild />
     <Footer />
     <div  >
-<button class="button-scroll"></button>
+<button class="button-scroll"><font-awesome-icon :icon="['fas', 'arrow-up']" style="color: #ffffff;" /></button>
     </div>
   </div>
 </template>
