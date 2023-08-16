@@ -51,7 +51,7 @@
       </div>
       <div class="flex">
         <div class="right-container">
-          <SocialMedia style="margin-bottom: 45px" />
+          <SocialMedia class="m-45px"/>
           <Technology />
         </div>
         <div class="left-container">
