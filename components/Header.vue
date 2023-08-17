@@ -19,28 +19,42 @@
       <div class="right-side">
         <ul>
           <li>
-            <a href="/visualmag-pro">Home</a>
+            <NuxtLink class="a" to="/visualmag-pro"> Home </NuxtLink>
           </li>
           <li>
-            <a href="/visualmag-pro/category/Advertising/">Advertising</a>
+            <NuxtLink class="a" to="/visualmag-pro/category/Advertising">
+              Advertising
+            </NuxtLink>
           </li>
           <li>
-            <a href="/visualmag-pro/category/Blogging">Blogging</a>
+            <NuxtLink class="a" to="/visualmag-pro/category/Blogging">
+              Blogging
+            </NuxtLink>
           </li>
           <li>
-            <a href="/visualmag-pro/category/Marketing">Marketing</a>
+            <NuxtLink class="a" to="/visualmag-pro/category/Marketing">
+              Marketing
+            </NuxtLink>
           </li>
           <li>
-            <a href="/visualmag-pro/category/Social">Social</a>
+            <NuxtLink class="a" to="/visualmag-pro/category/Social">
+              Social
+            </NuxtLink>
           </li>
           <li>
-            <a href="/visualmag-pro/category/Seo">SEO</a>
+            <NuxtLink class="a" to="/visualmag-pro/category/Seo">
+              SEO
+            </NuxtLink>
           </li>
           <li>
-            <a href="/visualmag-pro/category/Webdesign">Web Design</a>
+            <NuxtLink class="a" to="/visualmag-pro/category/Webdesign">
+              Web Design
+            </NuxtLink>
           </li>
           <li>
-            <a href="">Tech</a>
+            <NuxtLink class="a" to="/visualmag-pro/category/Tech">
+              Tech
+            </NuxtLink>
           </li>
         </ul>
         <div class="search-group">
@@ -93,7 +107,7 @@ header {
   float: right;
   margin-top: 20px;
   align-items: center;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
   background-color: white;
 }
 
@@ -105,7 +119,7 @@ img.logo {
   width: 220px;
   height: 41.24px;
 }
-a:hover {
+.a:hover {
   color: #222222;
   text-decoration: none;
 }
@@ -117,7 +131,7 @@ header ul li {
   display: inline-block;
   margin-right: 19.8px;
 }
-a {
+.a {
   font-weight: 400;
 }
 /* SEARCH */
