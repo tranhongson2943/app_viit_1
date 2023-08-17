@@ -189,4 +189,12 @@ svg{
   padding: 4px;
   padding-top: 2px;
 }
+.post-btn {
+  background-color: #0693e3;
+  font-weight: 400;
+  font-family: "Inter";
+  line-height: 26px;
+  padding: 10px 20px;
+  border: none;
+}
 </style>

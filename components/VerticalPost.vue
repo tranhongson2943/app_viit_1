@@ -1,8 +1,8 @@
 <template>
-  <div class="card">
+  <div class="post">
     <img
       :src="url"
-      class="card-img"
+      class="image"
     />
     <div class="card-body">
       <div class="name-date">
@@ -11,7 +11,7 @@
       </div>
 
       <h5 class="card-title">
-        {{ h5 }}
+       <a :href="h5">{{ h5 }}</a> 
       </h5>
       <p class="card-text gray">
         {{ p }}
@@ -21,7 +21,9 @@
 </template>
     <script>
     export default {
-      props:['p','h5','date','name','url']
+      props:['p','h5','date','name','url'],
+      method:{
+      }
     }
     </script>
     <style scoped>
@@ -34,18 +36,20 @@
   font-family: "Inter";
   font-size: 14px;
 }
+a{
+  color: black;
+}
 .name-date {
   margin-bottom: 17px;
 }
 span {
   font-weight: 700;
 }
-.card-img {
+.image {
   width: 100%;
-  object-fit: cover;
+  min-width: 100%;
 }
-.card {
-  border: none;
+.post {
 }
 .card-body {
   padding-bottom: 0;

@@ -7,22 +7,26 @@
           <Advertising style="margin-bottom: 40px" />
           <Blogging class="blogging" style="margin-bottom: 40px" />
           <div class="flex-2">
-            <Group-1b-3sm
-              title="Web Design"
-              p="How to Humanize AI-Generated Marketing Content"
-              h5="5 Steps for Using Paid Internet Advertising to Drive Conversions"
-              date="April 27, 2021"
-              name="John Doe"
-              url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/business-working2-400x266.jpeg"
-            />
-            <Group-1b-3sm
-              title="Marketing"
-              p="How to Humanize AI-Generated Marketing Content"
-              h5="5 Steps for Using Paid Internet Advertising to Drive Conversions"
-              date="April 27, 2021"
-              name="John Doe"
-              url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/facebook-social-400x266.jpeg"
-            />
+            <div class="lg-50 sm-100" >
+              <Group-1b-3sm
+                title="Web Design"
+                p="How to Humanize AI-Generated Marketing Content"
+                h5="How to Humanize AI-Generated Marketing Content"
+                date="April 27, 2021"
+                name="John Doe"
+                url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/business-working2-400x266.jpeg"
+              />
+            </div>
+            <div class="lg-50 sm-100" >
+              <Group-1b-3sm
+                title="Marketing"
+                p="How to Humanize AI-Generated Marketing Content"
+                h5="5 Steps for Using Paid Internet Advertising to Drive Conversions"
+                date="April 27, 2021"
+                name="John Doe"
+                url="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/facebook-social-400x266.jpeg"
+              />
+            </div>
           </div>
         </div>
 
@@ -53,7 +57,7 @@
           <Technology />
         </div>
         <div class="left-container">
-          <Group-4sm  title="Lifestyle" style="margin-bottom: 40px" />
+          <Group-4sm title="Lifestyle" style="margin-bottom: 40px" />
           <Group-2sm-2sm title="Business" style="margin-bottom: 40px" />
           <Group-4sm title="WordPress" style="margin-bottom: 40px" />
           <FilterByTag style="margin-bottom: 40px" />
@@ -69,9 +73,11 @@
   padding: 0;
   margin: 0;
 }
-
 .index-container {
   width: 1180px;
+}
+.lg-50{
+  width: 50%;
 }
 .index {
   display: flex;
@@ -114,6 +120,9 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+  }
+  .sm-100{
+    width: 100%;
   }
 }
 </style>

@@ -19,25 +19,25 @@
       <div class="right-side">
         <ul>
           <li>
-            <a href="">Home</a>
+            <a href="/visualmag-pro">Home</a>
           </li>
           <li>
-            <a href="">Advertising</a>
+            <a href="/visualmag-pro/category/Advertising/">Advertising</a>
           </li>
           <li>
-            <a href="">Blogging</a>
+            <a href="/visualmag-pro/category/Blogging">Blogging</a>
           </li>
           <li>
-            <a href="">Marketing</a>
+            <a href="/visualmag-pro/category/Marketing">Marketing</a>
           </li>
           <li>
-            <a href="">Social</a>
+            <a href="/visualmag-pro/category/Social">Social</a>
           </li>
           <li>
-            <a href="">SEO</a>
+            <a href="/visualmag-pro/category/Seo">SEO</a>
           </li>
           <li>
-            <a href="">Web Design</a>
+            <a href="/visualmag-pro/category/Webdesign">Web Design</a>
           </li>
           <li>
             <a href="">Tech</a>
