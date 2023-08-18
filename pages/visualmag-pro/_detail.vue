@@ -15,7 +15,7 @@
                 {{ this.$route.params.detail }}
               </h5>
               <div class="name-date">
-                <span class="posted-by">Postrd by</span>
+                <span class="posted-by">Post by</span>
                 <span class="name">John Doe</span>
                 <span>-</span>
                 <span class="date">April 27, 2021</span>
@@ -99,7 +99,7 @@
                 <h1>TECHNOLOGY</h1>
               </div>
               <div class="author">
-                <h2 class="author-name">John Doe</h2>
+                <h2 class="author-name"><img class="user-image" src="https://gravatar.wpenjoy.com/avatar/aed1547d950cb2ba8534a6df5915786f?s=48&amp;d=mm&amp;r=g" alt="" data-v-bafa52fb=""> John Doe</h2>
                 <p class="author-detail">
                   Your introduction goes here. Lorem ipsum dolor sit amet,
                   consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -129,7 +129,7 @@
                   <input />
                 </div>
                 <div>
-                  <div class="flex">
+                  <div class=" align-content">
                     <input type="checkbox" style="width: 13px" />
                     <p class="check-box-text">
                       Save my name, email, and website in this browser for the
@@ -167,6 +167,11 @@
   justify-content: center;
   padding: 27px 17px;
 }
+.align-content{
+  display: flex;
+  text-align: center;
+  gap: 5px;
+}
 .detail-container {
   width: 1180px;
 }
@@ -178,6 +183,11 @@
   margin: 32px 0 0;
   padding: 24px;
   border: 1px solid #f4f4f4;
+}
+.user-image{
+  border-radius: 50%;
+    height: 26px;
+    width: 26px;
 }
 .post-comment-form-title{
   font-family: sans-serif;
@@ -277,10 +287,6 @@ p {
   display: flex;
   margin: 0 0 24px;
 }
-.flex {
-  /* display: flex;
-  gap: 33px; */
-}
 .posted-by {
   font-weight: 400;
   font-size: 13px;
@@ -301,6 +307,7 @@ p {
 }
 .name-date {
   margin: 10px 0 0;
+  margin-bottom: 30px;
 }
 @media only screen and (min-width: 768px) {
   .flex {
