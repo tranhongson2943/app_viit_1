@@ -8,10 +8,12 @@
       <div class="name-date">
         <span>{{ name }}</span>
         <span class="date">{{ date }}</span>
+
       </div>
 
       <h5 class="card-title">
-       <a :href="h5">{{ h5 }}</a> 
+        <nuxt-link  :to="'visualmag-pro/'+h5">  {{ h5 }}</nuxt-link>
+     
       </h5>
       <p class="card-text gray">
         {{ p }}

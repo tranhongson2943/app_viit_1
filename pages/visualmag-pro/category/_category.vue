@@ -8,15 +8,19 @@
               <h1 class="h1-title">{{ this.$route.params.category }}</h1>
               <p>Category description here</p>
             </div>
-            <TechnologyPost />
-            <TechnologyPost />
-            <TechnologyPost />
-            <TechnologyPost />
-            <TechnologyPost />
-            <TechnologyPost />
-            <TechnologyPost />
-            <TechnologyPost />
-            <TechnologyPost />
+            <ul>
+              <li class="li-post">   <TechnologyPost /> <hr></li>
+              <li class="li-post">   <TechnologyPost /> <hr></li>
+              <li class="li-post">   <TechnologyPost /> <hr></li>
+              <li class="li-post">   <TechnologyPost /> <hr></li>
+              <li class="li-post">   <TechnologyPost /> <hr></li>
+              <li class="li-post">   <TechnologyPost /> <hr></li>
+              <li class="li-post">   <TechnologyPost /> <hr></li>
+              <li class="li-post">   <TechnologyPost /> <hr></li>
+              <li class="li-post">   <TechnologyPost /> <hr></li>
+            </ul>
+            <!-- PAGINATION -->
+            <Pagination/>
           </div>
           <div class="right-container lg-33">
             <RightBar />
@@ -56,11 +60,19 @@ input {
   width: 100%;
   border: 1px solid #f4f4f4;
 }
+.li-post{
+  margin: 0 0 32px;
+}
 .h1-title {
   font-family: sans-serif;
   font-weight: 700;
   line-height: 32px;
   font-size: 27px;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
 }
 p {
   font-family: "Inter";
@@ -76,6 +88,10 @@ p {
 .flex {
   /* display: flex;
     gap: 33px; */
+}
+/* Pagination */
+.pagination-number{
+display: block;
 }
 @media only screen and (min-width: 768px) {
   .flex {
