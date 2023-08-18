@@ -7,8 +7,8 @@
       />
 
       <div class="text">
-        <h5 class="card-title">
-          5 Steps for Using Paid Internet Advertising to Drive Conversions
+        <h5 class="card-title">         
+          <nuxt-link  :to="'/visualmag-pro/5 Steps for Using Paid Internet Advertising to Drive Conversions'">  5 Steps for Using Paid Internet Advertising to Drive Conversions</nuxt-link>
         </h5>
         <div class="name-date">
           <span>John Doe</span>

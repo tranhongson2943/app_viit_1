@@ -12,6 +12,7 @@
       </h3>
       <ul>
         <li class="post-container">
+          
           <img
             class="post-img"
             src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
@@ -19,13 +20,15 @@
           />
 
           <div class="post-content">
-            <h4 class="post-title">
+          
+            <nuxt-link  :to="'/visualmag-pro/The Complete Guide to Using Twitter to Grow Your Business'">   <h4 class="post-title">
               The Complete Guide to Using Twitter to Grow Your Business
-            </h4>
+            </h4></nuxt-link>
             <h5 class="post-date">April 1, 2021</h5>
           </div>
         </li>
         <li class="post-container">
+          
           <img
             class="post-img"
             src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
@@ -33,13 +36,15 @@
           />
 
           <div class="post-content">
-            <h4 class="post-title">
+          
+            <nuxt-link  :to="'/visualmag-pro/The Complete Guide to Using Twitter to Grow Your Business'">   <h4 class="post-title">
               The Complete Guide to Using Twitter to Grow Your Business
-            </h4>
+            </h4></nuxt-link>
             <h5 class="post-date">April 1, 2021</h5>
           </div>
         </li>
         <li class="post-container">
+          
           <img
             class="post-img"
             src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
@@ -47,13 +52,15 @@
           />
 
           <div class="post-content">
-            <h4 class="post-title">
+          
+            <nuxt-link  :to="'/visualmag-pro/The Complete Guide to Using Twitter to Grow Your Business'">   <h4 class="post-title">
               The Complete Guide to Using Twitter to Grow Your Business
-            </h4>
+            </h4></nuxt-link>
             <h5 class="post-date">April 1, 2021</h5>
           </div>
         </li>
         <li class="post-container">
+          
           <img
             class="post-img"
             src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
@@ -61,13 +68,15 @@
           />
 
           <div class="post-content">
-            <h4 class="post-title">
+          
+            <nuxt-link  :to="'/visualmag-pro/The Complete Guide to Using Twitter to Grow Your Business'">   <h4 class="post-title">
               The Complete Guide to Using Twitter to Grow Your Business
-            </h4>
+            </h4></nuxt-link>
             <h5 class="post-date">April 1, 2021</h5>
           </div>
         </li>
         <li class="post-container">
+          
           <img
             class="post-img"
             src="https://demo.wpenjoy.com/visualmag-pro/wp-content/uploads/sites/55/2021/05/thumbs-up.jpeg"
@@ -75,9 +84,10 @@
           />
 
           <div class="post-content">
-            <h4 class="post-title">
+          
+            <nuxt-link  :to="'/visualmag-pro/The Complete Guide to Using Twitter to Grow Your Business'">   <h4 class="post-title">
               The Complete Guide to Using Twitter to Grow Your Business
-            </h4>
+            </h4></nuxt-link>
             <h5 class="post-date">April 1, 2021</h5>
           </div>
         </li>

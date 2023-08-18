@@ -6,7 +6,8 @@
       />
 
       <div class="text">
-        <h4>The Complete Guide to Using Twitter to Grow Your Business</h4>
+        
+        <nuxt-link  :to="'visualmag-pro/The Complete Guide to Using Twitter to Grow Your Business'">  <h4>The Complete Guide to Using Twitter to Grow Your Business</h4></nuxt-link>
         <h5>April 1, 2021</h5>
       </div>
 

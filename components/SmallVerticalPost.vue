@@ -3,7 +3,8 @@
     <div class="card">
       <img :src="url_img" class="card-img" />
       <div class="card-body p-0">
-        <h5 href="">{{ h5 }}</h5>
+
+        <nuxt-link  :to="'visualmag-pro/'+h5">         <h5 href="" style="color: black;"> {{ h5 }}   </h5></nuxt-link>
       </div>
     </div>
   </div>
